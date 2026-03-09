@@ -49,7 +49,7 @@ const PROJECTS = [
     desc:   'A console-based password manager in C++ with master password protection and symmetric encryption. Securely store, retrieve, modify, and delete credentials for any app — all encrypted to disk using a character-shift cipher keyed to the master password.',
     image:  passMgr,
     tags:   ['C++', 'OOP', 'File I/O', 'Encryption'],
-    github: 'https://github.com/kaushalravin/password-manager',
+    github: 'https://github.com/kaushalravin/password_manager',
     live:   null,
   },
 ];
