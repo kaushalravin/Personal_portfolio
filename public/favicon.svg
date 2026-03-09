@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background rounded square -->
+  <rect width="64" height="64" rx="14" fill="#0a0a0f"/>
+  <!-- Subtle accent glow behind text -->
+  <rect width="64" height="64" rx="14" fill="url(#grad)" opacity="0.55"/>
+  <!-- < bracket -->
+  <text x="4" y="45" font-family="JetBrains Mono, Fira Code, monospace" font-size="34" font-weight="700" fill="#818cf8">&lt;</text>
+  <!-- / slash -->
+  <text x="22" y="45" font-family="JetBrains Mono, Fira Code, monospace" font-size="34" font-weight="700" fill="#e2e8f0">/</text>
+  <!-- > bracket -->
+  <text x="38" y="45" font-family="JetBrains Mono, Fira Code, monospace" font-size="34" font-weight="700" fill="#818cf8">&gt;</text>
+  <defs>
+    <radialGradient id="grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </radialGradient>
+  </defs>
+</svg>
